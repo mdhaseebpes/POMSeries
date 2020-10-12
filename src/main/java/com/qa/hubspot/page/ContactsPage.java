@@ -7,8 +7,6 @@ import com.qa.hubspot.base.BasePage;
 import com.qa.hubspot.util.ElementUtil;
 import com.qa.hubspot.util.JavaScriptUtil;
 
-import io.qameta.allure.Step;
-
 public class ContactsPage extends BasePage {
 
 	WebDriver driver;
@@ -17,8 +15,6 @@ public class ContactsPage extends BasePage {
 
 	By createContactButton = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=1]");
 	By createContactFormButton = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=2]");
-	By createContactButton1 = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=1]");
-	By createContactFormButton1 = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=2]");
 
 	By email = By.xpath("//input[@data-field='email']");
 	By firstName = By.xpath("//input[@data-field='firstname']");
