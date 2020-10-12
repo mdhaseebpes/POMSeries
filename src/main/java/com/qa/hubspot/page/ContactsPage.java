@@ -17,7 +17,8 @@ public class ContactsPage extends BasePage {
 
 	By createContactButton = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=1]");
 	By createContactFormButton = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=2]");
-
+	By FormButton1 = By.xpath("(//button[@type='button']//span[text()='Create contact'])[position()=2]");
+        By email1 = By.xpath("//input[@data-field='email']");
 	By email = By.xpath("//input[@data-field='email']");
 	By firstName = By.xpath("//input[@data-field='firstname']");
 	By lastName = By.xpath("//input[@data-field='lastname']");
