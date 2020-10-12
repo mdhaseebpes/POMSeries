@@ -13,6 +13,7 @@ public class HomePage extends BasePage {
 
 	By header = By.cssSelector("h1.private-page__title");
 	By accountName = By.cssSelector("span.account-name ");
+	By accountName1 = By.cssSelector("span.account-name ");
 	By header1 = By.cssSelector("h1.private-page__title");
 
 	By mainContactsLink = By.id("nav-primary-contacts-branch");
