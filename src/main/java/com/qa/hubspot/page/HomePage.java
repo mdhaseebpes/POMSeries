@@ -16,6 +16,8 @@ public class HomePage extends BasePage {
 	
 	By mainContactsLink = By.id("nav-primary-contacts-branch");
 	By childContactsLink = By.id("nav-secondary-contacts");
+	By mainContactsLink1 = By.id("nav-primary-contacts-branch");
+	By childContactsLink1 = By.id("nav-secondary-contacts");
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
