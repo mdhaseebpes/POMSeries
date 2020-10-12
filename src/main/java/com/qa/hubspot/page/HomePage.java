@@ -13,6 +13,8 @@ public class HomePage extends BasePage {
 
 	By header = By.cssSelector("h1.private-page__title");
 	By accountName = By.cssSelector("span.account-name ");
+	By header1 = By.cssSelector("h1.private-page__title");
+	By accountName1 = By.cssSelector("span.account-name ");
 	
 	By mainContactsLink = By.id("nav-primary-contacts-branch");
 	By childContactsLink = By.id("nav-secondary-contacts");
@@ -21,6 +23,10 @@ public class HomePage extends BasePage {
 		this.driver = driver;
 		elementUtil = new ElementUtil(driver);
 
+	}
+	
+	public String getLoggedInUserAccountName1() {
+		return elementUtil.doGetText(accountName);
 	}
 
 	public String getHomePageTitle() {
