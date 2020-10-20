@@ -23,15 +23,8 @@ stage('reports') {
             ])
             
             // publish html
-        		publishHTML([
-        		allowMissing: false, 
-        		alwaysLinkToLastBuild: false, 
-        		keepAll: false, 
-        		reportDir: 'build', 
-        		reportFiles: 'TestExecutionReport.html', 
-        		reportName: 'Extent HTML Report',
-        		 reportTitles: ''
-        		 ])
+        	publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'build',
+                       reportFiles: 'TestExecutionReport.html', reportName: 'Extent HTML Report', reportTitles: ''])
         		 
     }
     }
